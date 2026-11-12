@@ -1,0 +1,18 @@
+# Build output (the anime APK contains copyrighted wallpapers)
+launcher/build/
+*.apk
+*.idsig
+
+# Anime wallpapers from wallhaven.cc: personal use only, not redistributable
+launcher/themes/anime/res/drawable-nodpi/
+
+# Per-TV data: settings dumps, device serials, screenshots of signed-in accounts
+devices/*/backup/
+devices/*/screens/
+
+# Signing material never lives here (it's in ~/.android), but just in case
+*.keystore
+*.jks
+*.pass
+
+.DS_Store

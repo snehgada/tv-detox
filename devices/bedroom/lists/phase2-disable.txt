@@ -1,0 +1,5 @@
+# Phase 2: only after the minimal launcher is installed, holds the HOME role,
+# and its screensaver is selected. Approved by owner 2026-10-24.
+
+com.google.android.apps.tv.launcherx        # Google TV home + sponsored rows
+com.google.android.apps.tv.dreamx           # Google ambient-mode screensaver

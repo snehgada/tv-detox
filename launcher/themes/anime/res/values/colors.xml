@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Per-series accents: focus ring + aura, clock glow, series badge, dock edge. -->
+    <color name="ki_orange">#FFFF8A1F</color>
+    <color name="akatsuki_red">#FFE8322F</color>
+    <color name="survey_green">#FF35C27A</color>
+</resources>

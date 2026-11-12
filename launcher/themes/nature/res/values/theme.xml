@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nature theme (the original v1 look): CC0 / public-domain landscapes, light type, white focus ring. -->
+<resources>
+    <!-- Behaviour switches read by HomeActivity / CalmDream. -->
+    <bool name="theme_anime">false</bool>
+    <integer name="dock_edge_alpha">51</integer>
+    <dimen name="dock_edge">1dp</dimen>
+    <dimen name="focus_ring">2dp</dimen>
+
+    <color name="frost">#D9FFFFFF</color>
+
+    <string name="dream_name">Calm Nature</string>
+
+    <!-- First-run Dock order (the Living Room TV's favourites). Missing/disabled packages are
+         skipped; once someone edits the Dock on the TV, its own order is kept. -->
+    <string-array name="default_dock">
+        <item>in.startv.hotstar</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.google.android.youtube.tv</item>
+        <item>com.mediatek.wwtv.mediaplayer</item>
+        <item>com.yodo1.crossyroad</item>
+        <item>com.cloudmosa.puffinTV</item>
+    </string-array>
+
+    <!-- Wallpapers: CC0 / public domain, Wikimedia Commons, see WALLPAPER-CREDITS.tsv.
+         The three arrays line up by index. -->
+    <array name="wallpapers">
+        <item>@drawable/wp_01</item>
+        <item>@drawable/wp_02</item>
+        <item>@drawable/wp_03</item>
+        <item>@drawable/wp_05</item>
+        <item>@drawable/wp_06</item>
+        <item>@drawable/wp_07</item>
+        <item>@drawable/wp_08</item>
+    </array>
+    <string-array name="wallpaper_captions">
+        <item>Unspoilt wilderness · David Marcu</item>
+        <item>Mount Ida from Phaistos, Crete · Jebulon</item>
+        <item>San Juan Valley · Wilfredor</item>
+        <item>Beech and ferns, Gullmarsskogen · W.carter</item>
+        <item>Bilberry and moss, Gullmarsskogen · W.carter</item>
+        <item>Khongoryn Els dunes, Mongolia · Bernard Gagnon</item>
+        <item>Steppe, Mongolia · Bernard Gagnon</item>
+    </string-array>
+    <array name="wallpaper_accents">
+        <item>@color/frost</item>
+        <item>@color/frost</item>
+        <item>@color/frost</item>
+        <item>@color/frost</item>
+        <item>@color/frost</item>
+        <item>@color/frost</item>
+        <item>@color/frost</item>
+    </array>
+
+    <style name="ClockTime" parent="ClockText">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">44sp</item>
+    </style>
+    <style name="ClockDate" parent="ClockText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:alpha">0.85</item>
+    </style>
+    <style name="DreamClockTime" parent="ClockText">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+    <style name="AppsTitleText">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="TileLabel">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+</resources>

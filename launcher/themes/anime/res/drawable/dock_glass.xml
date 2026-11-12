@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ink glass. HomeActivity recolours the stroke to the current series accent. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="22dp" />
+    <solid android:color="#B3000000" />
+    <stroke android:width="2dp" android:color="#33FFFFFF" />
+</shape>

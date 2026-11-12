@@ -1,0 +1,6 @@
+# Phase 2a: must be disabled BEFORE phase2-disable.txt. When launcherx is
+# disabled, the setup wizard enables its RecoveryActivity, which grabs HOME and
+# loops trying to re-enable launcherx (black screen + system_server restart seen
+# 2026-10-24). Approved by owner 2026-10-24. Only used for first-time setup.
+
+com.google.android.tungsten.setupwraith

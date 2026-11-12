@@ -1,0 +1,24 @@
+# Phase 1: disabled with `pm disable-user --user 0` (reversible, app data kept).
+# Approved by owner 2026-10-24.
+
+# Unused streaming apps
+com.sonyliv
+com.graymatrix.did                          # Zee5
+com.shemaroo.shemarootv
+com.google.android.play.games
+
+# Google feedback / crash reports / RLZ attribution pings
+com.google.android.feedback
+com.android.tv.feedbackconsent
+com.google.android.partnersetup
+
+# Privacy Sandbox ad targeting & measurement
+com.android.adservices.api
+com.android.ondevicepersonalization.services
+com.android.federatedcompute.services
+
+# Skyworth (SDT) telemetry, partner promos, factory junk
+com.sdt.deviceinfo
+com.sdt.customization
+com.sdt.producttest
+com.sdt.frontpanelledsservice

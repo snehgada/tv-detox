@@ -1,0 +1,7 @@
+# Phase 2: only after Calm Home is installed, set as HOME, and its screensaver is
+# selected, and after phase2a. Approved by owner 2026-10-24.
+
+com.google.android.tvlauncher                          # Android TV home (Shop/Discover promo rows)
+com.google.android.tvrecommendations                   # recommendation rows service for that home
+com.google.android.leanbacklauncher.partnercustomizer  # Haier's promo config for that home
+com.google.android.backdrop                            # Google Backdrop screensaver (Calm Nature replaces it)

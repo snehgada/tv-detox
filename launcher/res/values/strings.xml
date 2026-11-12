@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shared by every theme. Theme-specific strings live in themes/<name>/res/values/theme.xml. -->
+<resources>
+    <string name="app_name">Calm Home</string>
+    <string name="apps_title">Apps</string>
+    <string name="apps_hint">Hold OK or press Menu on an app to add it to the Dock or remove it</string>
+    <string name="all_apps">All apps</string>
+    <string name="inputs">Inputs</string>
+    <string name="settings">Settings</string>
+    <string name="add_to_dock">Add to Dock</string>
+    <string name="remove_from_dock">Remove from Dock</string>
+    <string name="move_left">Move left</string>
+    <string name="move_right">Move right</string>
+    <string name="app_info">App info</string>
+    <string name="cannot_open">Couldn\'t open that app</string>
+
+    <!-- The first-run Dock order (default_dock) lives in each theme's theme.xml. -->
+
+    <!-- Fallback TV input pickers if nothing handles com.android.tv.action.VIEW_INPUTS; first
+         one that exists wins. The Inputs tile only appears on TVs that have one (not on
+         streaming sticks). Each package needs a <queries> entry. -->
+    <string-array name="input_panels">
+        <item>com.mediatek.wwtv.tvcenter/.nav.inputpanel.InputsPanelActivity</item>
+    </string-array>
+</resources>

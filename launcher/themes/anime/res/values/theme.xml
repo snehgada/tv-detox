@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anime theme: dark DBZ / Naruto / AoT wallpapers, per-series accent, manga font, glow + aura. -->
+<resources>
+    <!-- Behaviour switches read by HomeActivity / CalmDream. -->
+    <bool name="theme_anime">true</bool>
+    <integer name="dock_edge_alpha">153</integer>
+    <dimen name="dock_edge">2dp</dimen>
+    <dimen name="focus_ring">3dp</dimen>
+
+    <string name="dream_name">Calm Anime</string>
+
+    <!-- First-run Dock order (the Bedroom stick's apps). Missing/disabled packages are skipped;
+         once someone edits the Dock on the TV, its own order is kept. -->
+    <string-array name="default_dock">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>in.startv.hotstar</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.google.android.youtube.tvmusic</item>
+        <item>com.crunchyroll.crunchyroid</item>
+        <item>com.spotify.tv.android</item>
+    </string-array>
+
+    <!-- Wallpapers: personal-use anime art from wallhaven.cc, see WALLPAPER-CREDITS.tsv.
+         The three arrays line up by index; series are interleaved. -->
+    <array name="wallpapers">
+        <item>@drawable/wp_dbz1</item>
+        <item>@drawable/wp_nar1</item>
+        <item>@drawable/wp_aot1</item>
+        <item>@drawable/wp_dbz2</item>
+        <item>@drawable/wp_nar2</item>
+        <item>@drawable/wp_aot2</item>
+        <item>@drawable/wp_dbz3</item>
+        <item>@drawable/wp_nar3</item>
+        <item>@drawable/wp_aot3</item>
+    </array>
+    <string-array name="wallpaper_captions">
+        <item>Dragon Ball Z</item>
+        <item>Naruto</item>
+        <item>Attack on Titan</item>
+        <item>Dragon Ball Z</item>
+        <item>Naruto</item>
+        <item>Attack on Titan</item>
+        <item>Dragon Ball Z</item>
+        <item>Naruto</item>
+        <item>Attack on Titan</item>
+    </string-array>
+    <array name="wallpaper_accents">
+        <item>@color/ki_orange</item>
+        <item>@color/akatsuki_red</item>
+        <item>@color/survey_green</item>
+        <item>@color/ki_orange</item>
+        <item>@color/akatsuki_red</item>
+        <item>@color/survey_green</item>
+        <item>@color/ki_orange</item>
+        <item>@color/akatsuki_red</item>
+        <item>@color/survey_green</item>
+    </array>
+
+    <style name="ClockTime" parent="ClockText">
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+    <style name="ClockDate" parent="ClockText">
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+    <style name="DreamClockTime" parent="ClockText">
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textSize">76sp</item>
+    </style>
+    <style name="AppsTitleText">
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="TileLabel">
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#CC000000</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+</resources>

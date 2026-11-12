@@ -1,0 +1,24 @@
+# Phase 1: disabled with `pm disable-user --user 0` (reversible, app data kept).
+# Approved by owner 2026-10-24.
+
+# Unused preinstalled apps
+com.haier.launcher.haiermatrix                 # Haier TV+ (Zeasn content/promo portal)
+com.google.android.videos                      # Play Movies & TV (retired by Google)
+com.haier.apps.shahid                          # Shahid (MENA streaming preinstall)
+
+# Viewing tracker
+tv.anoki.acr.controller                        # Anoki ACR: recognises what's on screen for ads/FAST
+
+# Demo, factory and dead apps
+fusion.android.tv.demo                         # store demo mode service
+com.haier.oemmanualtest                        # factory test
+com.haier.apps.evoSmart                        # Haier evo smart-home installer
+com.google.android.music                       # Google Play Music, shut down in 2020
+
+# Google feedback / crash reports / RLZ attribution pings
+com.google.android.feedback
+com.google.android.partnersetup
+
+# Smart-device extras
+com.haierubic.usmartdevice                     # Haier SmartDevice service
+com.google.android.apps.nbu.smartconnect.tv    # Google Smart Connect (data-saver VPN)

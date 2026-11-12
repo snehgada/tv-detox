@@ -1,0 +1,17 @@
+com.sonyliv
+com.graymatrix.did
+com.shemaroo.shemarootv
+com.google.android.play.games
+com.google.android.feedback
+com.android.tv.feedbackconsent
+com.google.android.partnersetup
+com.android.adservices.api
+com.android.ondevicepersonalization.services
+com.android.federatedcompute.services
+com.sdt.deviceinfo
+com.sdt.customization
+com.sdt.producttest
+com.sdt.frontpanelledsservice
+com.google.android.tungsten.setupwraith
+com.google.android.apps.tv.launcherx
+com.google.android.apps.tv.dreamx

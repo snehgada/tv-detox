@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Focus ring shape. HomeActivity sets the stroke to a focused-only ColorStateList in the current accent. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="12dp" />
+    <stroke android:width="3dp" android:color="@android:color/transparent" />
+</shape>

@@ -1,0 +1,5 @@
+# Phase 2a: must be disabled BEFORE phase2-disable.txt. When the stock home is
+# disabled, the setup wizard enables its RecoveryActivity, which grabs HOME and
+# loops trying to re-enable it (seen on the Bedroom stick). Approved by owner 2026-10-24.
+
+com.google.android.tungsten.setupwraith
